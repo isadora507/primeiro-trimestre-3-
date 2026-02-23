@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isadora Ferraz Madeira - Currículo Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-particles"></div>
+    
+    <div class="container">
+        <!-- Header com efeito de vidro -->
+        <header class="glass-header">
+            <div class="header-content">
+                <div class="profile-image">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="header-text">
+                    <h1>Isadora Ferraz Madeira</h1>
+                    <p class="profession">Atendente & Gerente de Pet Shop</p>
+                    <div class="contact-info">
+                        <a href="tel:+5543999735648" class="contact-link">
+                            <i class="fas fa-phone"></i> (43) 99973-5648
+                        </a>
+                        <a href="mailto:isadora.ferraz@email.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> isadora.ferraz@email.com
+                        </a>
+                        <span class="contact-link">
+                            <i class="fas fa-map-marker-alt"></i> Londrina, PR
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Botão de download do currículo -->
+        <div class="download-section">
+            <button class="btn-download" onclick="downloadResume()">
+                <i class="fas fa-download"></i> Baixar Currículo PDF
+            </button>
+        </div>
+
+        <!-- Grid principal -->
+        <div class="main-grid">
+            <!-- Coluna da esquerda -->
+            <div class="left-column">
+                <!-- Sobre -->
+                <section class="card glass-card">
+                    <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+                    <p class="about-text">
+                        Profissional dedicada e versátil com experiência em atendimento ao cliente, 
+                        gestão e vendas. Atualmente atuando como gerente em pet shop, desenvolvendo 
+                        habilidades em liderança, organização e relacionamento com clientes. Busco 
+                        novos desafios que permitam aplicar e expandir meus conhecimentos.
+                    </p>
+                </section>
+
+                <!-- Competências -->
+                <section class="card glass-card">
+                    <h2><i class="fas fa-star"></i> Competências</h2>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <span>Atendimento ao Cliente</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Gestão de Equipe</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Organização</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Trabalho em Equipe</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Comunicação</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Idiomas -->
+                <section class="card glass-card">
+                    <h2><i class="fas fa-language"></i> Idiomas</h2>
+                    <div class="languages">
+                        <div class="language-item">
+                            <span>Português</span>
+                            <span class="level">Nativo</span>
+                        </div>
+                        <div class="language-item">
+                            <span>Inglês</span>
+                            <span class="level">Intermediário</span>
+                        </div>
+                        <div class="language-item">
+                            <span>Espanhol</span>
+                            <span class="level">Básico</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Coluna da direita -->
+            <div class="right-column">
+                <!-- Experiência Atual -->
+                <section class="card glass-card">
+                    <h2><i class="fas fa-briefcase"></i> Experiência Atual</h2>
+                    <div class="experience-item current">
+                        <div class="experience-header">
+                            <h3>Atendente e Gerente de Pet Shop</h3>
+                            <span class="date">2022 - Presente</span>
+                        </div>
+                        <p class="company">Pet Shop Amigo Bicho</p>
+                        <ul class="responsibilities">
+                            <li>Gestão da equipe de atendimento</li>
+                            <li>Atendimento personalizado aos clientes</li>
+                            <li>Controle de estoque e pedidos</li>
+                            <li>Treinamento de novos funcionários</li>
+                            <li>Resolução de conflitos e feedbacks</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Experiências Anteriores -->
+                <section class="card glass-card">
+                    <h2><i class="fas fa-history"></i> Experiências Anteriores</h2>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Vendedora de Hortifrúti</h3>
+                            <span class="date">2021 - 2022</span>
+                        </div>
+                        <p class="company">Feira Verde Hortifrúti</p>
+                        <ul class="responsibilities">
+                            <li>Atendimento ao cliente e vendas</li>
+                            <li>Organização e exposição dos produtos</li>
+                            <li>Controle de qualidade das mercadorias</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Garçonete em Pastelaria</h3>
+                            <span class="date">2020 - 2021</span>
+                        </div>
+                        <p class="company">Pastelaria do Centro</p>
+                        <ul class="responsibilities">
+                            <li>Atendimento ao cliente e anotação de pedidos</li>
+                            <li>Serviço de mesa e entregas</li>
+                            <li>Fechamento de contas e caixa</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Caixa em Restaurante</h3>
+                            <span class="date">2019 - 2020</span>
+                        </div>
+                        <p class="company">Restaurante Sabor Caseiro</p>
+                        <ul class="responsibilities">
+                            <li>Operação de caixa e fechamento</li>
+                            <li>Atendimento ao cliente</li>
+                            <li>Conciliação de valores e relatórios</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Formação -->
+                <section class="card glass-card">
+                    <h2><i class="fas fa-graduation-cap"></i> Formação</h2>
+                    <div class="education-item">
+                        <h3>Ensino Médio Completo</h3>
+                        <p class="institution">Colégio Estadual Londrina</p>
+                        <span class="date">Concluído em 2019</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>Curso de Gestão de Pessoas</h3>
+                        <p class="institution">SENAC - Em andamento</p>
+                        <span class="date">2024 - 2025</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Modal de confirmação de download -->
+        <div id="downloadModal" class="modal">
+            <div class="modal-content glass-card">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <i class="fas fa-check-circle modal-icon"></i>
+                <h2>Download Iniciado!</h2>
+                <p>Seu currículo está sendo baixado.</p>
+                <button class="btn-primary" onclick="closeModal()">Ok</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
